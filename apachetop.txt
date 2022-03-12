@@ -1,0 +1,1 @@
+tail -f /etc/apache2/logs/domlogs/*/* | ngxtop -f combined --group-by remote_user
